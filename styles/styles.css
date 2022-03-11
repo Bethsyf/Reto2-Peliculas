@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+#fondo{
+    background: url(../images/fondo.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.cont-logo img{
+    width: 130px;
+}
+
+#Cabeza{
+    color: white;
+    display: flex;
+    position: fixed;
+    z-index:1;
+    width: 100%;
+    height: auto;
+    background: rgba(7, 2, 4, 0.5);
+    padding: 5px;
+}
+
+#Cabeza div{
+    float: left;
+}
+
+.menu{
+    float: right;
+    margin-top: 10px;
+    display: inline-flex;
+}
+
+.menu li{
+list-style: none;
+float: left;
+margin: 5px;
+}
+
+.menu li ul{
+  display: none;
+  position: absolute;
+}
+
+.menu li:hover ul{
+  display: block;
+}
+
+.menu li ul li{
+  position: relative;
+}
+
+.menu li ul li ul{
+  height: -145;
+  top:0px;
+  padding: 10px;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+
+}
+
+.menu a:hover{
+    background: rgba(58, 3, 24, 0.329);
+}
+
+.ContenedorNav{
+    width: 100%;
+    margin:auto;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 5px;
+}
+
+.Formulario{
+    color: white;
+     position: relative;
+     top:55%;
+     padding: 20px;
+     background: rgba(7, 2, 4, 0.5);
+     width: 400px;
+ }
+
+button {
+    background-color: #e50914;
+    color: white;
+}
+
+.imag-gal {
+    width: 190px;
+    height: 190px;
+}
