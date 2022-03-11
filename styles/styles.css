@@ -48,23 +48,8 @@ float: left;
 margin: 5px;
 }
 
-.menu li ul{
-  display: none;
-  position: absolute;
-}
-
 .menu li:hover ul{
   display: block;
-}
-
-.menu li ul li{
-  position: relative;
-}
-
-.menu li ul li ul{
-  height: -145;
-  top:0px;
-  padding: 10px;
 }
 
 .menu a{
@@ -81,18 +66,14 @@ margin: 5px;
 .ContenedorNav{
     width: 100%;
     margin:auto;
-    font-family: 'Shadows Into Light', cursive;
-    font-family: 'Roboto Condensed', sans-serif;
-    padding: 5px;
+    padding: 3px;
 }
 
 .Formulario{
     color: white;
-     position: relative;
-     top:55%;
-     padding: 20px;
-     background: rgba(7, 2, 4, 0.5);
-     width: 400px;
+    padding: 20px;
+    background: rgba(7, 2, 4, 0.5);
+    width: 400px;
  }
 
 button {
