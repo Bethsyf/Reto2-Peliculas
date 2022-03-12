@@ -9,7 +9,7 @@ body{
     text-align: center;
     background-color: black;
     color: white;
-    min-height: 100vh;
+    min-height: 100vh;        
 }
 
 #fondo{
@@ -29,19 +29,18 @@ body{
     width: 100%;
     height: auto;
     background: rgba(7, 2, 4, 0.5);
-    padding: 3px;
+    padding: 2px;
 }
 
 .Cabeza div{
     float: left;
    width: 60%;
-    display: inline-flex;
-    
+    display: inline-flex;    
 }
 
 .menu{
     float: inline-end;
-    margin: 0 auto;
+    margin: auto;
     display: inline-flex;    
 }
 
@@ -74,14 +73,8 @@ margin: 15px;
 }
 
 #cont-form {
-    margin-top: 10%;
-    margin-left: 0 auto;
-    display: flex;    
-}
-
-#cont-general {
-    top: 25%;
-    display: flex;
+     margin-top: 13%;
+    
 }
 
 #formulario{
@@ -116,6 +109,67 @@ input {
     padding: 8px;
     border: none;
     width: 250px;    
+}
+
+.cont-general{
+    display: flex;
+    justify-content: center;
+}
+
+.container-slider{
+    margin-top: 13%;
+    width: 90%;
+    max-width: 900px;
+    
+    overflow: hidden;
+    box-shadow: 0 0 0 10px #ffffff,
+            0 15px 50px;
+    position: relative;
+}
+
+.slider{
+    display: flex;
+    width: 400%;
+    height: 400px;    
+}
+
+.slider-section{
+    width: 100%;
+}
+
+.imag-slider{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slider-btn{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.7);
+    top: 45%;
+    transform: translate(-20);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    border-radius: 50%;
+    color: black;
+    cursor: pointer;
+}
+
+.slider-btn :hover{
+    background: rgba(58, 3, 24, 0.329);
+}
+
+#btn-rigth{
+    right: 10px;
+}
+
+#btn-left{
+    left: 10px;
 }
 
 #galeria {
