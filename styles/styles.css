@@ -89,7 +89,7 @@ margin: 5px;
     height: 300px;   
 }
 
-.Formulario{
+#formulario{
     color: white;
     background: rgba(7, 2, 4, 0.5);
     width: 400px;
@@ -122,7 +122,7 @@ input {
 
 .cont-slider2 {
     margin: auto;
-    background-color: white;
+    background-color: black;
     width: 1000px;
     padding: 0 auto;    
 }
@@ -177,9 +177,8 @@ slider li:target {
   
   .menu2 li a{
     display: inline-block;
-    color: white;
-    text-decoration: none;
-    background-color: grey;
+    color: #e50914;
+    text-decoration: none;    
     padding: 10px;
     width: 20px;
     height: 20px;
@@ -187,12 +186,24 @@ slider li:target {
     border-radius: 100%;
   }
 
+  .menu2 li a :hover{
+    background: rgba(182, 173, 177, 0.329);
+  }
+
 #galeria {
-    margin: 0 auto;
+    margin: 0 10px;
 }
 
 .imag-gal {
-    width: 180px;
-    height: 180px;
+    width: 175px;
+    height: 175px;
+    padding: 4px;
 }
 
+.imag-gal :hover {
+    transform:scale(1.2);
+transform:scale(1.2);
+transform:scale(1.2);
+transform:scale(1.2);
+transform:scale(1.2);
+}

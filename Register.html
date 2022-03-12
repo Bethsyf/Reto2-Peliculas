@@ -25,23 +25,24 @@
 
         <main id="principal">
             <section id="cont-form">
-            <form class="Formulario" action="">
+            <form id="formulario" action="" name="formulario">
                 <h1 class="subtitulo">Formulario de Registro</h1>
                 <label for="">Nombre</label>
-                <input type="text"><br>
+                <input id='nombre' type="text" required><br>
                 <label for="">Apellido</label>
-                <input type="text"><br>
+                <input id='apellido' type="text" required><br>
                 <label for="">Telefono</label>
-                <input type="text"><br>
+                <input id='telefono' type="number" required><br>
                 <label for="">Dirección</label>
-                <input type="text"><br>
+                <input id='direccion' type="text" required><br>
                 <label for="">Observaciones</label><br>
                 <textarea id="text-big"></textarea><br>
-                <input id="btn-enviar" type="submit">
+                <button type="submit">Enviar</button>
             </form>
         </main>
     </section>
     </section>
+    <script src="./scripts/scripts.js"></script>
 </body>
 
 </html>
