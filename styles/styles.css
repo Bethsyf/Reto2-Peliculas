@@ -87,8 +87,9 @@ margin: 15px;
 }
 
 #cont-slider {
-    margin-top: 6%;
-    height: 300px;   
+    margin-top: 10%;
+    width: 90%;
+    max-width: 900px;  
 }
 
 #formulario{
@@ -128,10 +129,9 @@ input {
 }
 
 .cont-slider2 {
-    margin: auto;
-    background-color: black;
-    width: 1000px;
-    padding: 0 auto;    
+    display: flex;
+    width: 400%;  
+    height: 400px;
 }
 
 .slider ul, li {
@@ -198,7 +198,7 @@ slider li:target {
   }
 
 #galeria {
-    margin: 0 10px;
+    margin: 0 auto;
 }
 
 .imag-gal {
@@ -207,10 +207,8 @@ slider li:target {
     padding: 4px;
 }
 
-.imag-gal :hover {
-    transform:scale(1.2);
-transform:scale(1.2);
-transform:scale(1.2);
-transform:scale(1.2);
-transform:scale(1.2);
+.imag-slider{
+    display: block;
+    width: 100%;
+    height: 100%;
 }
