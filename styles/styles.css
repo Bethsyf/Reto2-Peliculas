@@ -130,7 +130,8 @@ input {
 .slider{
     display: flex;
     width: 400%;
-    height: 400px;    
+    height: 400px;  
+    margin-left: -100%;  
 }
 
 .slider-section{
@@ -164,7 +165,7 @@ input {
     background: rgba(58, 3, 24, 0.329);
 }
 
-#btn-rigth{
+#btn-right{
     right: 10px;
 }
 
