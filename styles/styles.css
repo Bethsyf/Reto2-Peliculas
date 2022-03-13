@@ -28,7 +28,7 @@ body{
     position: fixed;
     width: 100%;
     height: auto;
-    background: rgba(7, 2, 4, 0.5);
+    background: rgba(15, 14, 14, 0.5);
     padding: 2px;
 }
 
@@ -117,7 +117,7 @@ input {
 }
 
 .container-slider{
-    margin-top: 13%;
+    margin-top: 8%;
     width: 90%;
     max-width: 900px;
     
@@ -161,7 +161,7 @@ input {
     cursor: pointer;
 }
 
-.slider-btn :hover{
+.slider-btn:hover{
     background: rgba(58, 3, 24, 0.329);
 }
 
@@ -181,4 +181,11 @@ input {
     width: 175px;
     height: 175px;
     padding: 4px;
+}
+
+.cont-img{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    margin: 15px;
 }
