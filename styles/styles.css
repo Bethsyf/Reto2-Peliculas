@@ -187,5 +187,17 @@ input {
     display: flex;
     width: 300px;
     height: 300px;
-    margin: 15px;
+    margin: 40px;    
+}
+
+.cont-img2{
+    display: flex;
+    width: 2800px;
+    height: 280px;
+    margin: 20px;
+    
+}
+    
+.cont-img2:hover{
+    background-color: rgb(114, 13, 13);
 }

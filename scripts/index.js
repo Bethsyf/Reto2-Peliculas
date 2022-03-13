@@ -45,25 +45,28 @@ let image1 = document.createElement('img');
 image1.src = 'https://pics.filmaffinity.com/Un_amigo_abominable-320900881-large.jpg';
 document.querySelector('#img1').appendChild(image1);
 let tituloImage1 = document.createElement('h3');
-tituloImage1.textContent = 'Abominable';
+tituloImage1.textContent = ' Un Amigo Abominable';
 document.querySelector('#img1').appendChild(tituloImage1);
 
 let image2 = document.createElement('img');
-image2.src = 'https://pics.filmaffinity.com/Un_amigo_abominable-320900881-large.jpg';
+image2.src = 'https://es.web.img2.acsta.net/pictures/19/01/14/13/23/5258040.jpg';
 document.querySelector('#img2').appendChild(image2);
+let tituloImage2 = document.createElement('h3');
+tituloImage2.textContent = ' IO, sola en la tierra';
+document.querySelector('#img2').appendChild(tituloImage2);
+
 
 let image3 = document.createElement('img');
-image3.src = 'https://pics.filmaffinity.com/Un_amigo_abominable-320900881-large.jpg';
+image3.src = 'https://pics.filmaffinity.com/El_proyecto_Adam-718096348-large.jpg';
 document.querySelector('#img3').appendChild(image3);
+let tituloImage3 = document.createElement('h3');
+tituloImage3.textContent = 'El proyecto Adam';
+document.querySelector('#img3').appendChild(tituloImage3);
 
 let image4 = document.createElement('img');
-image4.src = 'https://pics.filmaffinity.com/Un_amigo_abominable-320900881-large.jpg';
+image4.src = 'https://m.media-amazon.com/images/I/51vSMi5ABJL.jpg';
 document.querySelector('#img4').appendChild(image4);
+let tituloImage4 = document.createElement('h3');
+tituloImage4.textContent = 'Fin de semana en Croacia';
+document.querySelector('#img4').appendChild(tituloImage4);
 
-let image5 = document.createElement('img');
-image5.src = 'https://pics.filmaffinity.com/Un_amigo_abominable-320900881-large.jpg';
-document.querySelector('#img5').appendChild(image5);
-
-let image6 = document.createElement('img');
-image6.src = 'https://pics.filmaffinity.com/Un_amigo_abominable-320900881-large.jpg';
-document.querySelector('#img6').appendChild(image6);
