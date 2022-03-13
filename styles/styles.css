@@ -192,10 +192,10 @@ input {
 
 .cont-img2{
     display: flex;
-    width: 2800px;
+    width: 280px;
     height: 280px;
-    margin: 20px;
-    
+    margin: 30px;
+    font-size: 15px;
 }
     
 .cont-img2:hover{
