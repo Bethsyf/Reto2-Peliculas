@@ -106,8 +106,7 @@ input {
 
 .cont-general{
     display: flex;
-    justify-content: center;
-    margin-top: 10%;
+    justify-content: center;    
 }
 
 .container-slider{
