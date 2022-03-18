@@ -1,16 +1,7 @@
 export const showMovies = (data, container) => {
-    
+    container.innerHTML = "";
     data.forEach(element => {
-        let divCont = document.createElement('div');
-        let imgMovie = document.createElement('img');
-        let titleMovie = document.createElement('h1');
-        imgMovie.setAttribute('src', element.img);
-        imgMovie.setAttribute('alt', element.name);
-        titleMovie.textContent(element.name);
-
-        divCont.appendChild(titleMovie);
-        divCont.appendChild(imgMovie);
-
-        container.appendChild(divCont)
-    })
+        container.innerHTML += `<h3>${element.name}<h3/>`
+        container.innerHTML += `<img class="cardMovie" src=${element.img} alt=${element.name} />`
+    });
 }

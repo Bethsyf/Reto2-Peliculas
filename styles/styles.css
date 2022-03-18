@@ -106,7 +106,8 @@ input {
 
 .cont-general{
     display: flex;
-    justify-content: center;    
+    justify-content: center;  
+    padding: 30px;  
 }
 
 .container-slider{
@@ -166,39 +167,21 @@ input {
     left: 10px;
 }
 
-#galeria {
-    margin: 0 auto;
-}
-
-.imag-gal {
-    width: 175px;
-    height: 175px;
-    padding: 4px;
-}
-
-#cont-imagenes{
-    display: flex;
-    justify-content: space-between;
-    margin: 30px;
-}
-
-.cont-img{
-   display: inline-flex;
-    width: 300px;
-    height: 300px;
-     
-}
-
-.cont-img2{
-    display: flex;
+.cardMovie{
     width: 280px;
     height: 280px;
-    margin: 50px;
-    font-size: 15px;
-}
     
-.cont-img2:hover{
-    background-color: rgb(114, 13, 13);
+}
+  
+.cont-imagenes{
+    display: inline-block;
+    margin: 10px;
+}
+
+.container{
+    display: flex;
+    
+    /* background-color: rgb(114, 13, 13); */
 }
 
 @media(min-width:768px){
