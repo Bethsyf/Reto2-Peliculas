@@ -1,3 +1,5 @@
+import {cards} from "../data/data.js";
+import {detailCard} from "./modules/detailCard";
 let slider = document.querySelector("#slider");
 let sliderSection = document.querySelectorAll(".slider-section");
 let sliderSectionLast = sliderSection[sliderSection.length -1];
