@@ -1,5 +1,5 @@
 import {cards} from "../../data/data.js";
-import { showMovies } from "./modules/showCards.js";
+
 let title = document.querySelector('h3');
 let image = document.querySelector('img');
 let details = document.querySelector('p');
@@ -11,7 +11,5 @@ document.addEventListener('DOMContentLoaded', () => {
     title.textCont = name;
     image.setAttribute('src', img);
     image.setAttribute('alt', name);
-    details.textContent = description;
-
-    showMovies(cards, object1)
+    details.textContent = description;    
 })

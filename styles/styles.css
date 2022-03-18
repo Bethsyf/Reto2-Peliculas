@@ -113,8 +113,7 @@ input {
 .container-slider{
     margin-top: 8%;
     width: 90%;
-    max-width: 900px;
-    
+    max-width: 900px;    
     overflow: hidden;
     box-shadow: 0 0 0 10px #ffffff,
             0 15px 50px;
@@ -172,6 +171,14 @@ input {
     height: 280px;
     
 }
+
+.container img:hover {
+    -webkit-transform:scale(1.2);
+-moz-transform:scale(1.2);
+-ms-transform:scale(1.2);
+-o-transform:scale(1.2);
+transform:scale(1.2);
+}
   
 .cont-imagenes{
     display: inline-block;
@@ -181,7 +188,18 @@ input {
 .container{
     display: flex;
     
+    
     /* background-color: rgb(114, 13, 13); */
+}
+
+#contDetail{
+    margin-top: 10%;
+    text-align: center;
+    background-color: white;
+    width: 50%;
+    border-radius: 20px;
+    padding: 30px;
+    position: relative;
 }
 
 @media(min-width:768px){

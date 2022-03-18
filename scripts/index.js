@@ -53,7 +53,7 @@ document.addEventListener('click', (e) => {
         let idCard = e.target.id;
         let elemento = cards.find(item => item.id == idCard);
         localStorage.setItem('ObjectCard', JSON.stringify(elemento));
-        window.location.href = '../detail.html';
+        window.location.href = './detail.html';
     }
 })
 
