@@ -49,11 +49,11 @@ document.addEventListener('DOMContentLoaded', () => {
 })
 
 document.addEventListener('click', (e) => {
-    if(e.target.classList.cotains('cardMovie')){
+    if (e.target.classList.contains('cardMovie') ) {
         let idCard = e.target.id;
         let elemento = cards.find(item => item.id == idCard);
         localStorage.setItem('ObjectCard', JSON.stringify(elemento));
-        window.location.href = './detail.html';
+        window.location.href = '../pages/detail.html';
     }
 })
 

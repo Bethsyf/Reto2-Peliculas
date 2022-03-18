@@ -172,7 +172,7 @@ input {
     
 }
 
-.container img:hover {
+.container1 img:hover {
     -webkit-transform:scale(1.2);
 -moz-transform:scale(1.2);
 -ms-transform:scale(1.2);
@@ -192,7 +192,7 @@ transform:scale(1.2);
 #contDetail{
     margin-top: 10%;
     text-align: center;
-    background-color: white;
+    background: rgba(148, 153, 155, 0.5);
     width: 50%;
     border-radius: 20px;
     padding: 30px;
