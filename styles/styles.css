@@ -185,11 +185,8 @@ transform:scale(1.2);
     margin: 10px;
 }
 
-.container{
+.container1{
     display: flex;
-    
-    
-    /* background-color: rgb(114, 13, 13); */
 }
 
 #contDetail{
