@@ -48,6 +48,8 @@ document.addEventListener('DOMContentLoaded', () => {
     showMovies(cards, contMovies)
 })
 
+
+
 document.addEventListener('click', (e) => {
     if (e.target.classList.contains('cardMovie') ) {
         let idCard = e.target.id;
