@@ -50,11 +50,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-document.addEventListener('click', (e) => {
-    if (e.target.classList.contains('cardMovie') ) {
-        let idCard = e.target.id;
-        let elemento = cards.find(item => item.id == idCard);
-        localStorage.setItem('ObjectCard', JSON.stringify(elemento));
+document.addEventListener('dblclick', e => {
+    
+    if(e.target.classList.contains('cardMovie')) {
+       console.log('hola')
+        let CardM = e.target.id;
+        let elemento = cards.find(item => item.id == CardM);
+        localStorage.setItem('ObjectCard', JSON.parse(elemento));
         window.location.href = '../pages/detail.html';
     }
 })
