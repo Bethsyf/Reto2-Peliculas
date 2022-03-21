@@ -14,7 +14,7 @@ formulario.addEventListener('submit', (e) => {
     localStorage.setItem ("direccion", direccion)
     localStorage.setItem ("observaciones", observaciones)
     form.reset();
-    alert('Usuario Registrado');
+    alert('Sus datos fueron guardados correctamente');
     window.location.href = './Register.html';
     
 })
