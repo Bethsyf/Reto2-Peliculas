@@ -1,5 +1,3 @@
-import {cards} from "../../data/data.js";
-
 let title = document.querySelector('h3');
 let image = document.querySelector('img');
 let details = document.querySelector('p');
