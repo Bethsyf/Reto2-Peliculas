@@ -166,7 +166,13 @@ input {
     left: 10px;
 }
 
-.cardMovie{
+#cont-gen-mov{
+     
+
+}
+
+
+.container1 img{
     width: 280px;
     height: 280px;
     
@@ -179,14 +185,20 @@ input {
 -o-transform:scale(1.2);
 transform:scale(1.2);
 }
-  
-.cont-imagenes{
-    display: inline-block;
-    margin: 10px;
+
+.cont-imagenes {    
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.cont-imagenes h3{    
+    margin: 5px;
+    text-align: center;
 }
 
 .container1{
-    display: flex;
+    display: inline-flex;
+    text-align: center;
 }
 
 #cont-general-det{
