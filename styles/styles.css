@@ -189,14 +189,41 @@ transform:scale(1.2);
     display: flex;
 }
 
+#cont-general-det{
+    display: flex;
+    justify-content: center;  
+    padding: 30px;  
+}
+
 #contDetail{
-    margin-top: 10%;
+    margin-top: 8%;
     text-align: center;
     background: rgba(148, 153, 155, 0.5);
     width: 50%;
     border-radius: 20px;
-    padding: 30px;
-    position: relative;
+    padding: 30px;    
+}
+
+#contDetail img{
+    width: 180px;
+    display: flex;
+    margin: auto;
+}
+
+
+#btn-regre{
+    background-color: #e50914;
+    color: white;
+    border-radius: 4px;
+    margin: 10px;
+    padding: 8px;
+    border: none;
+    text-decoration: none;    
+}
+
+#flecha{
+    float: left;
+    color:#e50914
 }
 
 @media(min-width:768px){

@@ -52,12 +52,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
 document.addEventListener('click', (e) => {
     if (e.target.classList.contains('cardMovie') ) {
+        
         let idCard = e.target.id;
-        let elemento = cards.find(item => item.id == idCard);
+        let elemento = [];
+        elemento = cards.find(item => item.id == idCard);
         localStorage.setItem('ObjectCard', JSON.stringify(elemento));
         window.location.href = '../pages/detail.html';
     }
 })
+
 
 // let image1 = document.createElement('img');
 // image1.src = 'https://pics.filmaffinity.com/Un_amigo_abominable-320900881-large.jpg';
