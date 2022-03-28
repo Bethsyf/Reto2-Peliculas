@@ -1,2 +1,2 @@
 # Reto2-Peliculas
-Desarrollar App de Peliculas
+Desarrollar Aplicativo que muestre el detalle de peliculas 
